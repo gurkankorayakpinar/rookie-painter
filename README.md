@@ -1,6 +1,6 @@
-# Rookie Painter
+# Rookie painter
 
-- Bu proje, seçilen bir resim dosyasını sıfırdan çizen bir uygulamadır.
+- Bu proje, seçilen bir resim dosyasını sıfırdan çizen bir browser uygulamasıdır.
 
 ***
 

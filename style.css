@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.controls {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+    /* Butonlar arasında boşluk */
+    align-items: center;
+}
+
+#fileInput {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#drawButton {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#drawButton:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+#drawButton:hover:not(:disabled) {
+    background-color: #45a049;
+}
+
+#canvas {
+    margin-top: 30px;
+    border: 1px solid #ccc;
+}
